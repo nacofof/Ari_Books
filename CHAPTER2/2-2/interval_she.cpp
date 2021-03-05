@@ -2,11 +2,10 @@
 #include <cstdio>
 #include <algorithm>
 #define MAX_N 100000
-#define MAX_T 1000000000
 using namespace std;
 
 //入力
-int n = 5, S[MAX_T] = {1, 2, 4, 6, 8}, T[MAX_T] = {3, 5, 7, 9, 10};
+int n = 5, S[MAX_N] = {1, 2, 4, 6, 8}, T[MAX_N] = {3, 5, 7, 9, 10};
 
 //仕事をソートするためのpairの配列
 pair<int, int> itv[MAX_N];
