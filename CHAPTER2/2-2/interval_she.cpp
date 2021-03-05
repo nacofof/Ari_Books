@@ -1,5 +1,5 @@
 //p43~ 空間スケジューリング問題
-#include <iostream>
+#include <cstdio>
 #include <algorithm>
 #define MAX_N 100000
 #define MAX_T 1000000000
@@ -28,5 +28,6 @@ int main(void){
             t = itv[i].first;
         }
     }
-    cout << ans << endl;
+    printf("%d\n", ans);
+    return 0;
 }
